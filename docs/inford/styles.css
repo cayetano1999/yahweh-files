@@ -1,0 +1,82 @@
+
+.vmv {
+  background: linear-gradient(to bottom, #f8f7ff, white);
+  padding: 5rem 2rem;
+}
+
+.vmv-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.vmv-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.vmv-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.vmv-card h2 {
+  color: var(--primary);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.vmv-card p {
+  color: var(--text);
+  line-height: 1.6;
+}
+
+.values-list {
+  list-style: none;
+  padding: 0;
+}
+
+.values-list li {
+  color: var(--text);
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.values-list li:last-child {
+  border-bottom: none;
+}
+
+/* Download Section */
+.download {
+  background: linear-gradient(to bottom, white, #f8f7ff);
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.download-subtitle {
+  font-size: 1.25rem;
+  color: var(--text);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  background: var(--primary);
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.download-button:hover {
+  background: var(--secondary);
+}

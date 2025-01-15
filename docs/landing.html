@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfoRD - Aplicación Dominicana</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .section {
+            margin: 50px 0;
+            text-align: center;
+            opacity: 0;
+            animation: fadeIn 1.5s forwards;
+        }
+
+        .section img {
+            width: 80%;
+            max-width: 500px;
+            margin: 20px 0;
+        }
+
+        @keyframes fadeIn {
+            0% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 20px;
+        }
+
+        .section-description {
+            font-size: 1.2rem;
+        }
+
+        .btn-primary {
+            background-color: #f07f3d;
+            border: none;
+            transition: background-color 0.3s;
+        }
+
+        .btn-primary:hover {
+            background-color: #d6682f;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer-link {
+            color: #f07f3d;
+            text-decoration: none;
+        }
+
+        .footer-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="text-center my-5">Bienvenido a InfoRD</h1>
+
+        <!-- Sección Buzón de Sugerencias -->
+        <div class="section" style="animation-delay: 0.2s;">
+            <h2 class="section-title">Buzón de Sugerencias</h2>
+            <p class="section-description">Tu opinión es muy importante para nosotros. Comparte tus ideas y sugerencias para mejorar la app.</p>
+            <img src="./buzon.png" alt="Buzón de Sugerencias">
+            <a href="#" class="btn btn-primary">Déjanos tu sugerencia</a>
+        </div>
+
+        <!-- Sección Días Festivos -->
+        <div class="section" style="animation-delay: 0.4s;">
+            <h2 class="section-title">Días Festivos</h2>
+            <p class="section-description">Consulta los días festivos y fines de semana largos del calendario dominicano.</p>
+            <img src="/mnt/data/calendario.png" alt="Días Festivos">
+            <a href="#" class="btn btn-primary">Ver calendario</a>
+        </div>
+
+        <!-- Sección Combustibles -->
+        <div class="section" style="animation-delay: 0.6s;">
+            <h2 class="section-title">Precios de Combustibles</h2>
+            <p class="section-description">Consulta los precios más recientes de los combustibles en la República Dominicana.</p>
+            <img src="/mnt/data/combustibles.png" alt="Precios de Combustibles">
+            <a href="#" class="btn btn-primary">Ver precios</a>
+        </div>
+
+        <!-- Sección Contacto -->
+        <div class="section" style="animation-delay: 0.8s;">
+            <h2 class="section-title">Contáctanos</h2>
+            <p class="section-description">¿Tienes alguna pregunta? No dudes en ponerte en contacto con nosotros a través de nuestras redes sociales.</p>
+            <img src="/mnt/data/contact.png" alt="Contáctanos">
+            <a href="#" class="btn btn-primary">Ver detalles de contacto</a>
+        </div>
+
+        <!-- Sección Divisas -->
+        <div class="section" style="animation-delay: 1s;">
+            <h2 class="section-title">Tasas de Divisas</h2>
+            <p class="section-description">Consulta las tasas de cambio más recientes para las principales divisas.</p>
+            <img src="/mnt/data/divisas.png" alt="Tasas de Divisas">
+            <a href="#" class="btn btn-primary">Ver tasas de cambio</a>
+        </div>
+
+        <!-- Sección Historial de Sorteos -->
+        <div class="section" style="animation-delay: 1.2s;">
+            <h2 class="section-title">Historial de Sorteos</h2>
+            <p class="section-description">Mantente al tanto de los últimos resultados de sorteos y loterías.</p>
+            <img src="/mnt/data/historial.png" alt="Historial de Sorteos">
+            <a href="#" class="btn btn-primary">Ver historial</a>
+        </div>
+
+        <!-- Sección Pantalla de Inicio -->
+        <div class="section" style="animation-delay: 1.4s;">
+            <h2 class="section-title">Pantalla de Inicio</h2>
+            <p class="section-description">Accede rápidamente a las funcionalidades más recientes y otras opciones de la app.</p>
+            <img src="/mnt/data/inicio.png" alt="Pantalla de Inicio">
+            <a href="#" class="btn btn-primary">Explorar más</a>
+        </div>
+
+        <!-- Sección Loterías -->
+        <div class="section" style="animation-delay: 1.6s;">
+            <h2 class="section-title">Loterías</h2>
+            <p class="section-description">Consulta todos los sorteos y resultados de loterías disponibles.</p>
+            <img src="/mnt/data/loterias.png" alt="Loterías">
+            <a href="#" class="btn btn-primary">Ver sorteos</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>© 2024 InfoRD - Todos los derechos reservados</p>
+        <p><a href="#" class="footer-link">Política de privacidad</a> | <a href="#" class="footer-link">Términos de uso</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
